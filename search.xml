@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>markdown语法与快捷键</title>
+    <url>/2020/05/28/markdown%E8%AF%AD%E6%B3%95%E4%B8%8E%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<h1 id="快捷键-特殊标注"><a href="#快捷键-特殊标注" class="headerlink" title="快捷键+特殊标注"></a>快捷键+特殊标注</h1><h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><p>Ctrl+数字n:n级标题</p>
+<p>几个#代表几个标题</p>
+<h4 id="选中和搜索替换"><a href="#选中和搜索替换" class="headerlink" title="选中和搜索替换"></a>选中和搜索替换</h4><p>Ctrl+L:选中当前行<br>Ctrl+D:选中当前单词</p>
+<p>Ctrl+E:选中相同格式的文字</p>
+<p>Ctrl+F:搜索</p>
+<p>Ctrl+H:搜索并替换</p>
+<h4 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h4><p>Ctrl+B：<strong>粗体</strong>       ** 粗体 **</p>
+<p>Ctrl+I：<em>字体倾斜</em>         * 字体倾斜*</p>
+<p>x^上标^     ^ 上标^</p>
+<p>x<del>下标</del>     ~ 下标~</p>
+<a id="more"></a>
+
+<h4 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h4><p>Ctrl+U:<u>下划线</u>          <u>  </u></p>
+<p>Alt+ Shift+5:<del>删除线</del>     <del>~ 删除线</del></p>
+<p>==高亮==        ==高亮 ==   </p>
+<p><cente r> 居中 </center></p>
+<p>分割线***或—</p>
+<hr>
+<h4 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h4><p>Ctrl+Shift+[：有序</p>
+<ol>
+<li>第一</li>
+<li>第二</li>
+<li>第三</li>
+</ol>
+<p>Ctrl+Shift+]：无序    +或-或*创建无序列表</p>
+<ul>
+<li>1</li>
+</ul>
+<ul>
+<li>2</li>
+</ul>
+<ul>
+<li>3</li>
+</ul>
+<h4 id="todolist"><a href="#todolist" class="headerlink" title="todolist"></a>todolist</h4><ul>
+<li><input disabled="" type="checkbox"> <p>待办事项    - [ ] 待办事项</p>
+</li>
+<li><input checked="" disabled="" type="checkbox"> <p>待办事项    - [x] 待办事项</p>
+</li>
+</ul>
+<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><p>Ctrl+T：创建表格</p>
+<table>
+<thead>
+<tr>
+<th>123</th>
+<th>456</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>456</td>
+<td>789</td>
+</tr>
+</tbody></table>
+<h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4><p><img src="C:%5CUsers%5CHider%5CDesktop%5Cechart.png" alt="显示的文字" title="图片标题"></p>
+<p><img src="C:%5CUsers%5CHider%5CDesktop%5Cechart.png" alt="显示的文字"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/yushang88/images/img/db/image-20200527183153919.png" alt="image-20200527183153919"></p>
+<p>Ctrl+Shift+I：插入图片<img src="" alt=""></p>
+<h4 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h4><p>内行式（按住Ctrl后点击）</p>
+<p>Ctrl+k：<a href="https://www.baidu.com/" target="_blank" rel="noopener">百度一下你就知道</a></p>
+<p>或者直接 用&lt;括号括起来&gt;, 把URL作为链接插入 <a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a></p>
+<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>Ctrl+Shift+Q</p>
+<blockquote>
+<p>引用         &gt;+空格</p>
+</blockquote>
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><p>行内代码：使用&lt; code&gt;<code>public</code></p>
+<p>或者  <code>public</code></p>
+<p>多行代码：Ctrl+Shift+K</p>
+<p>使用```+代码语言（如java）再回车</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">x</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello world!"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="表情与符号"><a href="#表情与符号" class="headerlink" title="表情与符号"></a>表情与符号</h4><p>借助:符号，例如:smile::arrow_down_small:等，使用ESC键可提示补全</p>
+<h4 id="位置"><a href="#位置" class="headerlink" title="位置"></a>位置</h4><p>Ctrl+home：返回顶部</p>
+<p>Ctrl+end：返回底部</p>
+<h4 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h4><p>全屏：F11</p>
+<p>Ctrl+Shift+L:隐藏/打开侧边栏</p>
+<p>Ctrl+/：切换模式</p>
+<p>Ctrl+ +：提升标题级别</p>
+<p>Ctrl+ -：降低标题级别</p>
+<p>去掉当前行最前面图标：Enter键</p>
+<p>Ctrl+Shift+3：文件树视图</p>
+<h4 id="数学表达式"><a href="#数学表达式" class="headerlink" title="数学表达式"></a>数学表达式</h4><p>行内公式：使用美元符号围起来$a+b=c$</p>
+<p>$name=\prod \frac{1}{i^2}$</p>
+<p>行外公式：Ctrl+Shift+M或者双$加回车<br>$$<br>a+b=c<br>$$</p>
+]]></content>
+      <categories>
+        <category>基础</category>
+      </categories>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2020/05/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9C/</url>
+    <content><![CDATA[<h2 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h2><p>内容</p>
+<h3 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h3><p>内容2</p>
+<h4 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h4><p>内容3</p>
+]]></content>
+      <tags>
+        <tag>语法</tag>
+      </tags>
+  </entry>
+</search>
